@@ -659,10 +659,11 @@
 .container-blog-body__item__text a {
     font-size: 2rem;
     font-weight: 700;
-    margin: 25px 0;
     line-height: 2.4rem;
     text-decoration: none;
     color: var(--text-color);
+    min-height: 48px;
+    display: inline-block;
 }
 
 .container-blog-body__item__text p {
@@ -670,6 +671,7 @@
     line-height: 2rem;
     font-weight: 400;
     margin-top: 10px;
+    min-height: 180px;
 }
 
 .container-blog-body__item__btn {
